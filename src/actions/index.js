@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 import { FETCH_POSTS } from './action-types';
 
 const ROOT_URL = 'http://reduxblog.herokuapp.com/api';
